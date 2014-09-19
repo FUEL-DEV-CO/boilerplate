@@ -1,0 +1,39 @@
+{
+	"name": "boilerplate",
+	"description": "boilerplate goodness",
+    "authors" : [
+        {
+            "name" : "Jake Toolson",
+            "email" : "jake@fueldev.co",
+            "role" : "Developer"
+        },
+        {
+            "name" : "Ron Vocal",
+            "email" : "ron@fueldev.co",
+            "role" : "Developer"
+        }
+    ],
+	"require": {
+        "php"                               : "~5.4",
+		"laravel/framework"                 : "~4.2",
+        "aws/aws-sdk-php-laravel"           : "~1.1",
+        "cartalyst/sentry"                  : "~2.1",
+        "bugsnag/bugsnag-laravel"           : "~1.0",
+        "graham-campbell/binput"            : "~2.0",
+        "openbuildings/postmark"            : "dev-master"
+	},
+    "require-dev": {
+        "codeception/codeception"           : "*",
+        "leroy-merlin-br/larasniffer"       : "~1.0"
+    },
+	"autoload": {
+        "psr-4" : {
+            "Fueldevco\\Boilerplate\\": "src"
+        }
+	},
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.0.0"
+        }
+    }
+}
