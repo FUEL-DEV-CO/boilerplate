@@ -46,7 +46,7 @@ abstract class PresenterAbstract implements ArrayAccess
      *
      * @return boolean
      */
-    public function offsetGet($key)
+    public function &offsetGet($key)
     {
         return $this->__get($key);
     }
